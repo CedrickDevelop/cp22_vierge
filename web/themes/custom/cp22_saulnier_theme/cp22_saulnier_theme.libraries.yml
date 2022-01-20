@@ -1,0 +1,30 @@
+##
+# Main library
+##
+main:
+  css:
+    theme:
+      assets/build/css/screen.css: {}
+      assets/build/css/print.css: {media: print}
+  js:
+    assets/build/js/main.js: {weight: -1, minified: true}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+
+##
+# Popin
+##
+popins:
+  js:
+    assets/build/js/popin.js: {}
+  dependencies:
+    - core/jquery
+
+test-component:
+  css:
+    theme:
+      assets/build/js/reactComponents/testComponent/testComponent.css: { }
+  js:
+    assets/build/js/reactComponents/testComponent/testComponent.js: { minified: true }

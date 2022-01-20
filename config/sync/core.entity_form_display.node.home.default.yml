@@ -1,0 +1,37 @@
+uuid: 04abbde5-c0e5-492a-b753-3a08630d0fb1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.home
+_core:
+  default_config_hash: id7OaadiQmgJkUGfoG7RXUL5CafhXpo2CvtnjOGY3a8
+id: node.home.default
+targetEntityType: node
+bundle: home
+mode: default
+content:
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  translation: true
+  uid: true
+  url_redirects: true
