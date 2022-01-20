@@ -38,3 +38,6 @@
 *.bz2
 ._.DS_Store
 .DS_Store
+
+!files.tar.bz2
+!cp22_saulnier.sql.bz2
